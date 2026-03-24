@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+
+/* Main container */
+.container {
+    background: white;
+    width: 60%;
+    margin: 50px auto;
+    padding: 50px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+    color: #555;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Table styling */
+.grade-table {
+    width: 60%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table header */
+.grade-table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+}
+
+/* Table rows */
+.grade-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row color */
+.grade-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+.grade-table tr:hover {
+    background-color: #ddd;
+}
+
+/* Button styling */
+button {
+    margin-top: 25px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #ff7a18;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    background: #e66900;
+    transform: scale(1.05);
+}
